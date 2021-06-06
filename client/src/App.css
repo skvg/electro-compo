@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+  background-image: url(./others/electro-wallpaper.jfif);
+  background-size: cover;
+  height: 100vh;
+}
+
+.Button_wrapper {
+  margin: auto;
+  width: 20vw;
+}
+.Button_wrapper button{
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+
+.InputBox {
+  text-align: left;
+  width: 240px;
+  padding: 5px;
+  margin: auto;
+  color: #fff;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.InputBox input{
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  border-radius: 10px;
+  border: 1px #4CAF50 solid;
+  box-shadow: #eee;
+}
+
+.Header {
+  border-bottom: solid 2px #bbb;
+  margin-bottom: 3vh;
+  color: #bbb;
+  display: inline-block;
+  width: 100vw;
+  height: 15vh;
+}
+.logo {
+  float: left;
+  width: 40vw;
+}
+.buttons-section {
+  float: right;
+  width: 50vw;
+  margin-top: 20px;
+}
+.buttons-section .Button_wrapper {
+  float: left;
+}
+.Header h1 {
+  font-size: 35px;
+  margin: 0px;
+  margin-bottom: 20px;
+  font-family:'Times New Roman', Times, serif;
+}
+.Header h5 {
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;;
+}
+.sellAndRepair {
+  display: inline-block;
+}
+.BoxButton {
+  float: left;
+  width: 49vw;
+  height: 30vh;
+}
+.BoxButton_Button {
+  width: 70%;
+  height: 100%;
+  background-color: rgb(142, 142, 211);
+  opacity: 0.8;
+  font-size: 30px;
+  border: solid 2px #88f;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: auto;  
+}
+
+.popupWindow {
+  position: absolute;
+  top: 25vh;
+  left: 25vw;
+  right: 0;
+  height: auto;
+  width: 50vw;
+  background-color: #bb9;
+  border: solid #bb5 1px;
+  border-radius: 5px;
+  padding: 20px;
+  z-index: 2;
+}
+
+
+.itemsBox{
+  width: 90vw;
+  margin: auto;
+  margin-top: 2vh;
+  display: inline-block;
+  overflow-y: scroll;
+  height: 48vh;
+}
+.showbox{
+  width: 18vw;
+  float: left;
+  border-radius: 5px;
+  background-color: rgb(173, 241, 250);
+  text-align: center;
+  text-decoration: none;
+  margin: 1vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.showbox h3 {
+  font-size: 20px;
+  margin: 1px;
+  color: #000;
+}
+.showbox h4 {
+  font-size: 15px;
+  margin: 0px;
+  color: #000;
+}
+
+.cart h1 {
+  font-size: 30px;
+  color: #fff;
+}
